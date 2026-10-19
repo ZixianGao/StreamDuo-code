@@ -68,7 +68,7 @@ server with Qwen3-30B-A3B started by `scripts/serve_llm.sh`. Point them to it wi
 - **Ask labels.** For every moment a human caster names an entity, the Stage 0 model scores that line with and
   without an ideal answer. Asking two seconds earlier is labelled positive when the answer raises the line's
   log-likelihood by more than γ = 1 nat.
-- **Stage 1** continues from Stage 0 with the ask head and with research-agent answers placed in the history
+- **Stage 1** continues from Stage 0 on the same 3,400 clips, with the ask head and with research-agent answers placed in the history
   (the right entity plus two distractors, missing in 30% of the answers).
 - **Stage 2** trains a rank-32 LoRA for 300 steps. The student sees the noisy answer, and its teacher is the
   Stage 1 model with the ideal answer, amplified by context-aware decoding (α = 1). The loss is the reverse KL
