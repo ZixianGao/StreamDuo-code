@@ -1,0 +1,36 @@
+# Leave-k-games-out folds over the Proact-VL Live Gaming data.
+# Each fold holds out one tournament game and one walkthrough game.
+# Minecraft (guidance) and the aux sets (livecc, ego4d_goal_step) always stay in train.
+# Wukong has no released train jsonl, so it is test-only in every fold
+# (its raw/train transcripts are reserved for the B7 target-finetune upper bound).
+
+folds:
+  all:        # reproduction of the Proact-VL setting: train on all 10 games
+    heldout: []
+  F1:
+    heldout: [lol, elden_ring]
+  F2:
+    heldout: [csgo, cyberpunk_2077]
+  F3:
+    heldout: [starcraft2, baldurs_gate_3]
+  F4:
+    heldout: [streetfighter6, tears_of_the_kingdom]
+  F5:
+    heldout: [yu_gi_oh]
+
+# Scaling study on F1: number of training games drawn from F1's train pool.
+# Nested subsets so each larger set contains the smaller ones.
+scaling:
+  base_fold: F1
+  subsets:
+    g1: [starcraft2]
+    g2: [starcraft2, baldurs_gate_3]
+    g4: [starcraft2, baldurs_gate_3, csgo, tears_of_the_kingdom]
+    g8: [starcraft2, baldurs_gate_3, csgo, tears_of_the_kingdom,
+         streetfighter6, cyberpunk_2077, yu_gi_oh, minecraft]
+
+# Single-source folds (main experiment 1): train on ONE game, test on every other game + Wukong.
+single_source:
+  S_bg3: baldurs_gate_3
+  S_sc2: starcraft2
+  S_totk: tears_of_the_kingdom

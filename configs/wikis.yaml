@@ -1,0 +1,60 @@
+# MediaWiki sources per game for the frozen GameWiki snapshot.
+# primary: game-specific wiki (main namespace crawled in full).
+# wikipedia: the game's English Wikipedia article (plus direct links are NOT followed).
+# scope_include: keep only pages whose title/categories/lead text match (series-wide wikis).
+# scope_exclude: drop pages whose title/categories match (e.g. a spin-off on the same wiki).
+# Liquipedia (esports) has its own API terms (gzip, <=1 req/2s) and is handled separately.
+
+games:
+  baldurs_gate_3:
+    primary: https://bg3.wiki/w/api.php
+    wikipedia: "Baldur's Gate 3"
+  csgo:
+    primary: https://counterstrike.fandom.com/api.php
+    wikipedia: "Counter-Strike: Global Offensive"
+    scope_include: 'Global Offensive|CS:GO|CSGO|Counter-Strike 2|\bCS2\b'
+  cyberpunk_2077:
+    primary: https://cyberpunk.fandom.com/api.php
+    wikipedia: "Cyberpunk 2077"
+    scope_include: 'Cyberpunk 2077|Phantom Liberty'
+  elden_ring:
+    primary: https://eldenring.fandom.com/api.php
+    wikipedia: "Elden Ring"
+    scope_exclude: 'Nightreign'
+  lol:
+    primary: https://wiki.leagueoflegends.com/en-us/api.php
+    wikipedia: "League of Legends"
+  minecraft:
+    primary: https://minecraft.wiki/api.php
+    wikipedia: "Minecraft"
+  starcraft2:
+    primary: https://starcraft.fandom.com/api.php
+    wikipedia: "StarCraft II"
+    scope_include: 'StarCraft II|Wings of Liberty|Heart of the Swarm|Legacy of the Void|\bSC2\b'
+  streetfighter6:
+    primary: https://streetfighter.fandom.com/api.php
+    wikipedia: "Street Fighter 6"
+    scope_include: 'Street Fighter 6|\bSF6\b'
+  tears_of_the_kingdom:
+    primary: https://zeldawiki.wiki/w/api.php
+    wikipedia: "The Legend of Zelda: Tears of the Kingdom"
+    scope_include: 'Tears of the Kingdom|\bTotK\b'
+  yu_gi_oh:
+    primary: https://yugipedia.com/api.php
+    wikipedia: "Yu-Gi-Oh! Trading Card Game"
+    scope_include: '\bTCG\b|\bOCG\b|Trading Card Game'
+    scope_exclude: 'Duel Links|Master Duel|Rush Duel|Cross Duel|\(anime\)|\(manga\)|anime|manga|video game|Speed Duel'
+  black_myth_wukong:
+    primary: https://blackmythwukong.fandom.com/api.php
+    wikipedia: "Black Myth: Wukong"
+  # Fresh-Games candidates (final list pending, see DESIGN §3.3)
+  fresh_silksong:
+    primary: https://hollowknight.fandom.com/api.php
+    wikipedia: "Hollow Knight: Silksong"
+    scope_include: 'Silksong'
+  fresh_expedition_33:
+    primary: https://clairobscur.fandom.com/api.php
+    wikipedia: "Clair Obscur: Expedition 33"
+  fresh_ghost_of_yotei:
+    primary: https://ghostofyotei.fandom.com/api.php
+    wikipedia: "Ghost of Yōtei"

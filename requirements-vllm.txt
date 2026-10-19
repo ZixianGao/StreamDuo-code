@@ -1,0 +1,4 @@
+# research agent (Qwen3-VL-8B) and LLM server for cleaning, dossiers and the judge (Qwen3-30B-A3B)
+vllm==0.11.0
+transformers==4.57.1
+pillow

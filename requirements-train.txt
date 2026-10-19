@@ -1,0 +1,20 @@
+# training, streaming inference and metrics (Python 3.11, CUDA 12.4)
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.50.0
+deepspeed==0.19.7
+liger-kernel==0.5.5
+flash-attn==2.7.4.post1
+peft==0.21.2
+accelerate==1.15.0
+decord==0.6.0
+qwen-vl-utils==0.0.10
+bm25s==0.3.13
+wordfreq==3.1.1
+openai
+numpy<2
+pyyaml
+tqdm
+pillow
+huggingface_hub
+requests
