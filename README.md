@@ -1,6 +1,39 @@
-# StreamDuo
+<p align="center">
+  <img src="assets/robot.png" height="76" alt="commentator">&nbsp;&nbsp;&nbsp;<img src="assets/detective.png" height="76" alt="research agent">
+</p>
 
-Code for **StreamDuo: A Live Commentator and a Research Agent for Unseen Games**.
+<h1 align="center">StreamDuo</h1>
+<h3 align="center">A Live Commentator and a Research Agent for Unseen Games</h3>
+
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=Ku5ijSIAAAAJ">Zixian Gao</a><sup>1,2,§</sup> ·
+  Penghao Luo<sup>3</sup> ·
+  Xiangcheng Cao<sup>1</sup> ·
+  Zhen Li<sup>1,2,§</sup> ·
+  <a href="https://riishin.github.io/">Lixin Xiu</a><sup>2</sup> ·
+  <a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5,§</sup> ·
+  <a href="https://strdb.s.isct.ac.jp/html/100004513_en.html">Erwin Wu</a><sup>5</sup> ·
+  <a href="https://scholar.google.com/citations?user=4OqZBmYAAAAJ">Kaipeng Zhang</a><sup>1,†</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Alaya Lab &nbsp; <sup>2</sup>The University of Tokyo &nbsp; <sup>3</sup>Georgia Institute of Technology &nbsp;
+  <sup>4</sup>Peking University &nbsp; <sup>5</sup>Institute of Science Tokyo
+  <br>
+  <sub>§ Work done during an internship at Alaya Lab &nbsp;&nbsp; † Corresponding author</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b" alt="arXiv">
+  <a href="https://zixiangao.github.io/StreamDuo/static/StreamDuo.pdf"><img src="https://img.shields.io/badge/Paper-PDF-2F4677" alt="Paper"></a>
+  <a href="https://zixiangao.github.io/StreamDuo/"><img src="https://img.shields.io/badge/Project-Page-EC8A22" alt="Project Page"></a>
+</p>
+
+<p align="center">
+  <img src="assets/teaser.png" width="92%" alt="StreamDuo teaser">
+</p>
+
+---
 
 A trainable commentator (LiveCC-7B-Base) watches the stream and decides every second whether to speak. When it
 sees something it cannot name, it asks a frozen research agent (Qwen3-VL-8B with BM25 search over the game's
