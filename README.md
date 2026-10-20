@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="assets/robot.png" height="76" alt="commentator">&nbsp;&nbsp;&nbsp;<img src="assets/detective.png" height="76" alt="research agent">
+  <img src="assets/logo.png" width="560" alt="StreamDuo">
 </p>
 
-<h1 align="center">StreamDuo</h1>
 <h3 align="center">A Live Commentator and a Research Agent for Unseen Games</h3>
 
 <p align="center">
