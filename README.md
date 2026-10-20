@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://scholar.google.com/citations?user=Ku5ijSIAAAAJ">Zixian Gao</a><sup>1,2,§</sup> ·
   Penghao Luo<sup>3</sup> ·
-  Xiangcheng Cao<sup>1</sup> ·
+  <a href="https://openreview.net/profile?id=~Xiangcheng_Cao1">Xiangcheng Cao</a><sup>1</sup> ·
   <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2,§</sup> ·
   <a href="https://riishin.github.io/">Lixin Xiu</a><sup>2</sup> ·
   <a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5,§</sup> ·
