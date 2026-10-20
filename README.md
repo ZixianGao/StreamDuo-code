@@ -87,7 +87,7 @@ gives the same result as calling it online.
 ```bibtex
 @article{streamduo2026,
   title  = {StreamDuo: A Live Commentator and a Research Agent for Unseen Games},
-  author = {Gao, Zixian and Luo, Penghao and Cao, Xiangcheng and Xiu, Lixin and Cai, Ziqi and Wu, Erwin and Jiang, Xun and Xu, Xing and Zhang, Kaipeng},
+  author = {Gao, Zixian and Luo, Penghao and Cao, Xiangcheng and Li, Zhen and Xiu, Lixin and Cai, Ziqi and Wu, Erwin and Zhang, Kaipeng},
   year   = {2026}
 }
 ```
