@@ -5,12 +5,12 @@
 <h3 align="center">A Live Commentator and a Research Agent for Unseen Games</h3>
 
 <p align="center">
-  <a href="https://scholar.google.com/citations?user=Ku5ijSIAAAAJ">Zixian Gao</a><sup>1,2,§</sup> ·
+  <a href="https://scholar.google.com/citations?user=Ku5ijSIAAAAJ">Zixian Gao</a><sup>1,2</sup> ·
   Penghao Luo<sup>3</sup> ·
   <a href="https://openreview.net/profile?id=~Xiangcheng_Cao1">Xiangcheng Cao</a><sup>1</sup> ·
-  <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2,§</sup> ·
+  <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2</sup> ·
   <a href="https://riishin.github.io/">Lixin Xiu</a><sup>2</sup> ·
-  <a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5,§</sup> ·
+  <a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5</sup> ·
   <a href="https://strdb.s.isct.ac.jp/html/100004513_en.html">Erwin Wu</a><sup>5</sup> ·
   <a href="https://scholar.google.com/citations?user=4OqZBmYAAAAJ">Kaipeng Zhang</a><sup>1,†</sup>
 </p>
@@ -19,7 +19,7 @@
   <sup>1</sup>Alaya Lab &nbsp; <sup>2</sup>The University of Tokyo &nbsp; <sup>3</sup>Georgia Institute of Technology &nbsp;
   <sup>4</sup>Peking University &nbsp; <sup>5</sup>Institute of Science Tokyo
   <br>
-  <sub>§ Work done during an internship at Alaya Lab &nbsp;&nbsp; † Corresponding author</sub>
+  <sub>† Corresponding author</sub>
 </p>
 
 <p align="center">
