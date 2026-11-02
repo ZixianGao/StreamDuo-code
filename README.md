@@ -11,7 +11,7 @@
   <a href="https://riishin.github.io/">Lixin Xiu</a><sup>2</sup> ·
   <a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5</sup> ·
   <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2</sup> ·
-  <a href="https://strdb.s.isct.ac.jp/html/100004513_en.html">Erwin Wu</a><sup>5</sup> ·
+  <a href="https://erwinwu.com/">Erwin Wu</a><sup>5</sup> ·
   <a href="https://scholar.google.com/citations?user=4OqZBmYAAAAJ">Kaipeng Zhang</a><sup>1,†</sup>
 </p>
 
