@@ -8,9 +8,9 @@
   <a href="https://scholar.google.com/citations?user=Ku5ijSIAAAAJ">Zixian Gao</a><sup>1,2</sup> ·
   Penghao Luo<sup>3</sup> ·
   <a href="https://openreview.net/profile?id=~Xiangcheng_Cao1">Xiangcheng Cao</a><sup>1</sup> ·
-  <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2</sup> ·
   <a href="https://riishin.github.io/">Lixin Xiu</a><sup>2</sup> ·
   <a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5</sup> ·
+  <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2</sup> ·
   <a href="https://strdb.s.isct.ac.jp/html/100004513_en.html">Erwin Wu</a><sup>5</sup> ·
   <a href="https://scholar.google.com/citations?user=4OqZBmYAAAAJ">Kaipeng Zhang</a><sup>1,†</sup>
 </p>
@@ -90,7 +90,7 @@ inference settings.
 ```bibtex
 @article{streamduo2026,
   title  = {StreamDuo: A Live Commentator and a Research Agent for Unseen Games},
-  author = {Gao, Zixian and Luo, Penghao and Cao, Xiangcheng and Li, Zhen and Xiu, Lixin and Cai, Ziqi and Wu, Erwin and Zhang, Kaipeng},
+  author = {Gao, Zixian and Luo, Penghao and Cao, Xiangcheng and Xiu, Lixin and Cai, Ziqi and Li, Zhen and Wu, Erwin and Zhang, Kaipeng},
   year   = {2026}
 }
 ```
