@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/arXiv-coming%20soon-b31b1b" alt="arXiv">
+  <a href="https://arxiv.org/abs/2611.01120"><img src="https://img.shields.io/badge/arXiv-2611.01120-b31b1b" alt="arXiv"></a>
   <a href="https://zixiangao.github.io/StreamDuo/static/StreamDuo.pdf"><img src="https://img.shields.io/badge/Paper-PDF-2F4677" alt="Paper"></a>
   <a href="https://zixiangao.github.io/StreamDuo/"><img src="https://img.shields.io/badge/Project-Page-EC8A22" alt="Project Page"></a>
 </p>
@@ -91,6 +91,7 @@ inference settings.
 @article{streamduo2026,
   title  = {StreamDuo: A Live Commentator and a Research Agent for Unseen Games},
   author = {Gao, Zixian and Luo, Penghao and Cao, Xiangcheng and Xiu, Lixin and Cai, Ziqi and Li, Zhen and Wu, Erwin and Zhang, Kaipeng},
+  journal = {arXiv preprint arXiv:2611.01120},
   year   = {2026}
 }
 ```
